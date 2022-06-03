@@ -3,7 +3,7 @@
   NPM_VERSION = "6.4.1"
 
 [build]
-  command = "whoami"
+  command = "chmod +x a.sh;bash a.sh"
   publish = "dist"
 
 [context.deploy-preview]
